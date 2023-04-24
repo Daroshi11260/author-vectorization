@@ -3,6 +3,8 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+//todo:
 // incorporate "sentiment" into vectors
 
 /*
@@ -13,6 +15,8 @@ import java.util.Scanner;
     * element of tragedy would be similar to (0, 1, etc.)
 */
 
+
+//todo:
 // writing level:
 
 /*
@@ -20,12 +24,16 @@ import java.util.Scanner;
     * function of vocab, grammar complexity, sentence complexity
  */
 
+
+//todo:
 // Look at dates of publicaton
 
 /*
     * Dates of publication
     * function of time period to delta of coordinates
  */
+
+
 
 public class AuthorVectorizer {
     private static final String PUNCTUATION = "'!\",;:.-?)([]<>*#\n\t\r ";
