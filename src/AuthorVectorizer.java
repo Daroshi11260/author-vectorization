@@ -3,6 +3,30 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// incorporate "sentiment" into vectors
+
+/*
+    * AuthorVectorizer.java
+    * subvectors for sentiment, elements of sentiments (happy, sad, etc.)
+    *   - sentiment is a vector of 1s and 0s
+    * element of comedy would be similar to (1, 0, etc.)
+    * element of tragedy would be similar to (0, 1, etc.)
+*/
+
+// writing level:
+
+/*
+    * Writing Level
+    * function of vocab, grammar complexity, sentence complexity
+ */
+
+// Look at dates of publicaton
+
+/*
+    * Dates of publication
+    * function of time period to delta of coordinates
+ */
+
 public class AuthorVectorizer {
     private static final String PUNCTUATION = "'!\",;:.-?)([]<>*#\n\t\r ";
     private static final String VOWELS = "aeiouy";
